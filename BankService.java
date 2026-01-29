@@ -1,5 +1,4 @@
-class BankService 
-{
+class BankService {
     int balance = 1000;   // initial balance
 
     void deposit(int amount) {
@@ -15,7 +14,7 @@ class BankService
     }
 
     public static void main(String[] args) {
-        Bank b = new Bank();
+        BankService b = new BankService();
 
         b.showBalance();     // before
         b.deposit(500);      // add money
